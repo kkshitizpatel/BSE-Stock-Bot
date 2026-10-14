@@ -10,6 +10,7 @@ import requests
 TELEGRAM_BOT_TOKEN = os.environ.get("8670885960:AAGF_3ByQ8VJ4IzRnay8VW1TUG5PiNW703I", "LOCAL_TEST_TOKEN")
 TELEGRAM_CHAT_ID = os.environ.get("7587873393","LOCAL_CHAT_ID")
 ALLOWED_USERNAME = "Xitiz92"
+SEEN_IDS_FILE = "seen_ids.txt"
 
 # 8 Category Catalyst Keywords
 KEYWORDS = [
